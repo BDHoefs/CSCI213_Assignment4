@@ -26,7 +26,7 @@ namespace Assignment4
 
             userFirstLastName.Text = user.MemberFirstName + " " + user.MemberLastName;
 
-            var sections = from x in db.Sections where x.Member_ID == memberId select new
+            var sections = from x in user.Sections select new
             {
                 SectionName = x.SectionName,
                 InstructorName = 
