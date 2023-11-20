@@ -31,8 +31,11 @@
                 <ul class="navbar-nav d-flex">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Login</a>
+                       
                         <a class="nav-link active" href="#">Administrator</a>
                     </li>
+                    
+
                 </ul>
             </div>
         </div>
