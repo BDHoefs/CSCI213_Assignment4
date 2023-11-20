@@ -22,17 +22,17 @@
                 <a class="navbar-brand" href="#">Karate School</a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Member</a>
+                        <asp:HyperLink class="nav-link active" runat="server" NavigateUrl="Member/Member.aspx">Member</asp:HyperLink>
                     </li>
-                    <li class=="nav-item">
-                        <a class="nav-link active" href="#">Instructor</a>
+                    <li class="nav-item">
+                        <asp:HyperLink class="nav-link active" runat="server" NavigateUrl="Instructors/Instructors.aspx">Instructor</asp:HyperLink>
                     </li>
                 </ul>
                 <ul class="navbar-nav d-flex">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Login</a>
+                        <asp:HyperLink class="nav-link active" runat="server" NavigateUrl="~/logon.aspx">Login</asp:HyperLink>
                        
-                        <a class="nav-link active" href="#">Administrator</a>
+                        <asp:HyperLink class="nav-link active" runat="server" NavigateUrl="~/Administrator/Administrator.aspx">Administrator</asp:HyperLink>
                     </li>
                     
 
@@ -41,7 +41,7 @@
         </div>
     </nav>
     <form id="form1" runat="server">
-        <div>
+        <div id="contentContainer">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
