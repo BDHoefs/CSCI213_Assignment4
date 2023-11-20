@@ -5,6 +5,7 @@
       <Column Name="InstructorFirstName" Type="System.String" DbType="NVarChar(25) NOT NULL" CanBeNull="false" />
       <Column Name="InstructorLastName" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
       <Column Name="InstructorPhoneNumber" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Instructor_Section" Member="Sections" ThisKey="InstructorID" OtherKey="Instructor_ID" Type="Section" />
       <Association Name="NetUser_Instructor" Member="NetUser" ThisKey="InstructorID" OtherKey="UserID" Type="NetUser" IsForeignKey="true" />
     </Type>
   </Table>
@@ -41,6 +42,7 @@
       <Column Name="SectionFee" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
       <Association Name="NetUser_Section" Member="NetUser" ThisKey="Instructor_ID" OtherKey="UserID" Type="NetUser" IsForeignKey="true" />
       <Association Name="Member_Section" Member="Member" ThisKey="Member_ID" OtherKey="Member_UserID" Type="Member" IsForeignKey="true" />
+      <Association Name="Instructor_Section" Member="Instructor" ThisKey="Instructor_ID" OtherKey="InstructorID" Type="Instructor" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

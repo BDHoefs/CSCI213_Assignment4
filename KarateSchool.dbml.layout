@@ -26,31 +26,38 @@
         <elementListCompartment Id="4f51cacc-23eb-49f6-9c4d-dad61d256f46" absoluteBounds="6.265, 3.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(1.75 : 2.375); (1.75 : 1.6874995); (3.5 : 1.6874995)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(1.75 : 2.375); (1.75 : 1.6874995); (3.5 : 1.6874995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/KarateSchoolDataContext/NetUser/NetUser_Instructor" />
       <nodes>
         <classShapeMoniker Id="5a4fe3ff-6784-49fa-b350-b89b2cc589e4" />
         <classShapeMoniker Id="07fd334b-4951-4561-b9e5-01953a0d7ed6" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(2.75 : 3.66429768880208); (3.5 : 3.66429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.75 : 3.66429768880208); (3.5 : 3.66429768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/KarateSchoolDataContext/NetUser/NetUser_Member" />
       <nodes>
         <classShapeMoniker Id="5a4fe3ff-6784-49fa-b350-b89b2cc589e4" />
         <classShapeMoniker Id="240c9034-29e9-476a-ae15-56b92c9e4c71" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(2.75 : 3.09375); (6.25 : 3.09375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.75 : 3.09375); (6.25 : 3.09375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/KarateSchoolDataContext/NetUser/NetUser_Section" />
       <nodes>
         <classShapeMoniker Id="5a4fe3ff-6784-49fa-b350-b89b2cc589e4" />
         <classShapeMoniker Id="15caf744-9e7c-46c2-a827-d9f0c96b8bb3" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(5.5 : 4.10659912109375); (6.25 : 4.10659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(5.5 : 4.10659912109375); (6.25 : 4.10659912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/KarateSchoolDataContext/Member/Member_Section" />
       <nodes>
         <classShapeMoniker Id="240c9034-29e9-476a-ae15-56b92c9e4c71" />
+        <classShapeMoniker Id="15caf744-9e7c-46c2-a827-d9f0c96b8bb3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.78929768880208); (7.25 : 1.78929768880208); (7.25 : 2.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KarateSchoolDataContext/Instructor/Instructor_Section" />
+      <nodes>
+        <classShapeMoniker Id="07fd334b-4951-4561-b9e5-01953a0d7ed6" />
         <classShapeMoniker Id="15caf744-9e7c-46c2-a827-d9f0c96b8bb3" />
       </nodes>
     </associationConnector>
